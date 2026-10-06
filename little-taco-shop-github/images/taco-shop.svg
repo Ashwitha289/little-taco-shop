@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+  <title id="title">The Little Taco Shop</title>
+  <desc id="desc">A colorful illustration of tacos, lime, tomato and peppers.</desc>
+  <rect width="1000" height="500" rx="28" fill="#fff0c9"/>
+  <circle cx="160" cy="130" r="72" fill="#8bc34a"/>
+  <circle cx="160" cy="130" r="52" fill="#dff3b0"/>
+  <g transform="translate(270 105)">
+    <path d="M0 185 Q115 0 230 185 Q115 250 0 185Z" fill="#e4a21a" stroke="#7a4300" stroke-width="10"/>
+    <path d="M28 165 Q115 70 202 165 Q115 215 28 165Z" fill="#f8c64b"/>
+    <path d="M45 150 Q115 100 185 150" fill="none" stroke="#55a630" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="78" cy="137" r="13" fill="#d62828"/>
+    <circle cx="122" cy="124" r="14" fill="#d62828"/>
+    <circle cx="160" cy="143" r="12" fill="#d62828"/>
+  </g>
+  <g transform="translate(590 105)">
+    <path d="M0 185 Q115 0 230 185 Q115 250 0 185Z" fill="#e4a21a" stroke="#7a4300" stroke-width="10"/>
+    <path d="M28 165 Q115 70 202 165 Q115 215 28 165Z" fill="#f8c64b"/>
+    <path d="M45 150 Q115 100 185 150" fill="none" stroke="#2a9d8f" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="78" cy="137" r="13" fill="#d62828"/>
+    <circle cx="122" cy="124" r="14" fill="#d62828"/>
+    <circle cx="160" cy="143" r="12" fill="#d62828"/>
+  </g>
+  <text x="500" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="54" font-weight="700" fill="#6b2d00">Fresh • Simple • Delicious</text>
+</svg>

@@ -1,0 +1,174 @@
+html {
+  font-size: 22px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+  background: #fffdf7;
+  color: #222;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  margin-top: 1.5rem;
+}
+
+nav ul {
+  padding: 0;
+  list-style-position: inside;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.25rem;
+  justify-content: center;
+}
+
+nav a {
+  font-weight: 700;
+}
+
+a {
+  color: #8b2f00;
+}
+
+a:hover,
+a:focus {
+  color: #c44b00;
+}
+
+.hero {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid #8b2f00;
+}
+
+.hero figcaption {
+  margin-top: .4rem;
+  font-style: italic;
+}
+
+article {
+  margin: 2rem 0;
+}
+
+aside {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td, caption {
+  border: 1px solid #333;
+  padding: .5rem;
+}
+
+caption {
+  font-weight: 700;
+  border-bottom: 0;
+}
+
+th {
+  background: #f4dfb2;
+}
+
+td {
+  text-align: center;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5rem 1rem;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid #777;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+legend {
+  font-weight: 700;
+}
+
+label {
+  display: inline-block;
+  min-width: 5rem;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  max-width: 100%;
+  font: inherit;
+  padding: .35rem;
+  border: 1px solid #777;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+  padding: .4rem .8rem;
+  margin: .75rem .4rem .75rem 0;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #aaa;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    border: 0;
+  }
+
+  dl {
+    grid-template-columns: 1fr;
+  }
+}
